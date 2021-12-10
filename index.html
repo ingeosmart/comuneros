@@ -89,7 +89,7 @@
             indoorLayer.addTo(map);
 
             var levelControl = new L.Control.Level({
-                level: "0",
+                level: "1",
                 levels: indoorLayer.getLevels()
             });
 
@@ -104,7 +104,7 @@
         legend.onAdd = function(map) {
             var d = "Esta aplicación le permite explorar cada uno de los niveles" +
                      "Del corazón de Barrio Comuneros, Ubicado en la Ciudad de Cúcuta" + 
-                       "\n Realizado por el Equipo SIG del Área Metropolitana de Cúcuta"
+                       "\n \n Realizado por el Equipo SIG del Área Metropolitana de Cúcuta"
 
 
             var div = L.DomUtil.create('div', 'info legend');
